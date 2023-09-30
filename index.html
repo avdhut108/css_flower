@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css flower</title>
+    <style>
+        #a{
+            width: 600px;
+            height: 600px;
+            background-color: yellow;
+            margin: auto;
+            overflow: hidden; 
+            position: relative;
+        }
+        .common { 
+            width: 300px;
+            height: 300px;
+            position: absolute;
+        }
+        .red{
+            background:red;
+            border-bottom-left-radius: 300px;
+            border-top-right-radius: 300px;
+            bottom: 0px;
+            right: 0px;
+        }
+        .blue{
+            background:blue;
+            border-top-left-radius: 300px;
+            border-bottom-right-radius: 300px;
+            top:0px;
+            right: 0px;
+        }
+        .brown{
+            background:brown;
+            border-bottom-left-radius: 300px;
+            border-top-right-radius: 300px;
+            top: 0px;
+            left: 0px;
+        }
+        .pink{
+            background:pink;
+            border-top-left-radius: 300px;
+            border-bottom-right-radius: 300px;
+            bottom: 0px;
+            left: 0px;
+        }
+       
+        
+    </style>
+</head>
+<body>
+    <div id="a">
+        <div class="common c1 red"></div>
+        <div class="common c2 blue"></div>
+        <div class="common c3 brown"></div>
+        <div class="common c4 pink"></div>
+    </div>
+</body>
+</html>
